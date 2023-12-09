@@ -1,12 +1,12 @@
 .header {
-    padding:15px 10%;
+    padding: 1px 10%;
+    margin: 0;
 
     &__container {
-        padding: 0 20px;
         display: flex;
         justify-content: space-between;
         margin-top: 1vw;
-        margin-bottom: 1px;
+        padding: 0 20px;
     }
     &__logo {
         width: 170px;
@@ -15,12 +15,11 @@
         &__img {
             width: 100%;
             max-width: 80px;
-            
         }
     }
     &__links {
         display: flex;
-        
+
         &__item {
             margin: 10px;
         }
