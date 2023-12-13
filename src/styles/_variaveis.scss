@@ -1,3 +1,11 @@
-$corDeFundo: #040714;
+$corDeFundoPrimaria: #000;
+$corDeFundoHome: #4b4b4b;
+$corDeFundoSinopse: #2e2e2e;
 $corDoTexto: #fff;
-$corDoTextoSecundaria: #000;
+
+.title {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

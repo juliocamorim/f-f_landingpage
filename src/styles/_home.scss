@@ -1,0 +1,35 @@
+@use 'variaveis';
+
+.home {
+    padding: 60px 60px;
+    display: flex;
+    background-color:variaveis.$corDeFundoHome;
+
+    &__text {
+        margin: 80px;
+        padding-bottom: 80px;
+        display: block;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        h1 {
+            padding-top: 12px;
+            font-size: 36px;
+            color: variaveis.$corDoTexto;
+        }
+        
+        h2 {
+            padding-top: 12px;
+            font-size: 26px;
+        }
+    }
+    &__image {
+        display: grid;
+        img {
+            padding-top: 80px;
+            width: 100%;
+            max-width: 80%;
+            padding-bottom: 80px;
+            }
+        }
+    }
