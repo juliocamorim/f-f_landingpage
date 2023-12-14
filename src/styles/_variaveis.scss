@@ -1,6 +1,6 @@
 $corDeFundoPrimaria: #000;
 $corDeFundoHome: #4b4b4b;
-$corDeFundoSinopse: #2e2e2e;
+$corDeFundoSecundaria: #2e2e2e;
 $corDoTexto: #fff;
 
 .title {
@@ -8,4 +8,6 @@ $corDoTexto: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }

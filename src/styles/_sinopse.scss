@@ -3,7 +3,7 @@
 .sinopse {
     padding: 0 20%;
     color: variaveis.$corDoTexto;
-    background-color: variaveis.$corDeFundoSinopse;
+    background-color: variaveis.$corDeFundoSecundaria;
     padding-bottom: 80px;
 
     &__image {
@@ -13,6 +13,7 @@
         width: 100%;
         max-width: 100%;
         padding-bottom: 40px;
+        cursor: pointer;
     }
 
     h1 {

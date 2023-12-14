@@ -2,22 +2,52 @@
 
 
 .personagens {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: variaveis.$corDeFundoSinopse;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: variaveis.$corDeFundoSecundaria;
     color: variaveis.$corDoTexto;
 
     h1 {
-        padding-bottom: 40px;
+        padding-bottom: 80px;
     }
 
     .card__container {
         display: flex;
+        flex-wrap: wrap;
+        gap: 40px 20px;
         justify-content: center;
         align-items: center;
 
         &__item {
-            margin: 20px;
+
+            img {
+                padding-bottom: 8px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                cursor: pointer;
+                max-width: 90%;
+                width: 100%;
+                
+            }
+
+            .title--card {
+                align-items: center;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                font-size: 24px;
+                background-color: black;
+                max-width: 90%;
+                width: 100%;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                cursor: pointer;
+
+                    p {
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
         }
     }
-}
