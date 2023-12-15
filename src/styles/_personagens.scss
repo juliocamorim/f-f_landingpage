@@ -3,7 +3,7 @@
 
 .personagens {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     background-color: variaveis.$corDeFundoSecundaria;
     color: variaveis.$corDoTexto;
 
@@ -27,7 +27,6 @@
                 cursor: pointer;
                 max-width: 90%;
                 width: 100%;
-                
             }
 
             .title--card {
@@ -41,6 +40,11 @@
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
                 cursor: pointer;
+                
+                    &:hover {
+                    background-color: #fff;
+                    color: #000000;
+                    }
 
                     p {
                         display: grid;
