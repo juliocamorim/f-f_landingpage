@@ -9,6 +9,10 @@
 
     h1 {
         padding-bottom: 80px;
+
+        @media (max-width: 768px) {
+            font-size: 32px;
+        }
     }
 
     .card__container {
@@ -18,8 +22,13 @@
         justify-content: center;
         align-items: center;
 
-        &__item {
+        @media (max-width: 768px) {
+            margin: 35px;
+            width: 100%;
+            max-width: 90%;
+        }
 
+        &__item {
             img {
                 padding-bottom: 8px;
                 border-top-left-radius: 10px;
@@ -50,8 +59,9 @@
                         display: grid;
                         align-items: center;
                         justify-content: center;
+                        }
                     }
                 }
             }
         }
-    }
+

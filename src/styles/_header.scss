@@ -15,6 +15,12 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
+
+        @media (max-width: 768px) {
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
     }
     &__logo {
         width: 170px;
@@ -29,8 +35,13 @@
     &__links {
         display: flex;
         
+        @media (max-width: 768px) {
+            display: block;
+        }
+        
         &__item {
             margin: 8px;
+            }
         }
     }
     .button {
@@ -48,10 +59,9 @@
         letter-spacing: 4px;
         border-radius: 8px;
         border: 1.5px solid #fff;
-
+        
         &:hover {
             background-color: #fff;
             color: #000000;
         }
     }
-}

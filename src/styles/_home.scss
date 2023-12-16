@@ -5,6 +5,10 @@
     display: flex;
     background-color:variaveis.$corDeFundoHome;
 
+    @media (max-width: 768px) {
+        display: block;
+    }
+
     &__text {
         margin: 80px;
         padding-bottom: 80px;
@@ -12,6 +16,11 @@
         font-weight: 600;
         text-transform: uppercase;
 
+        @media (max-width: 768px) {
+            margin: 0;
+            padding-bottom: 0;
+        }
+        
         h1 {
             padding-top: 12px;
             font-size: 43px;
@@ -25,11 +34,14 @@
     }
     &__image {
         display: grid;
+
         img {
             padding-top: 160px;
             width: 100%;
             max-width: 80%;
             cursor: pointer;
+
+                
             }
         }
     }
