@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Velozes e Furiosos</title>
     <link rel="stylesheet" href="dist/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <h1>
-                <img class="header__logo" src="./src/images/logo_preto.png" alt="Logo Velozes e Furiosos">
-            </h1>
-            <ul class="header__links">
-                <li class="header__links__item">
-                    <a href="#home" class="button">Home</a>
-                </li>
-                <li class="header__links__item">
-                    <a href="#sinopse" class="button">Sinopse</a>
-                </li>
-                <li class="header__links__item">
-                    <a href="#personagens" class="button">Elenco</a>
-                </li>
-            </ul>
-        </div>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="./src/images/logo_preto.png" alt="Logo">
+            </div>
+            <div class="hamburguer active"></div>
+            <ul class="menu">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#sinopse">Sinopse</a>
+                    </li>
+                    <li>
+                        <a href="#personagens">Elenco</a>
+                    </li>
+                </ul>
+            </div>
     </header>
     <section class="home" id="home">
             <div class="home__text">
@@ -117,5 +119,6 @@
             <p>Site construido para fins de estudos, não tendo relação com a franquia "Velozes e Furiosos" ou à produtora.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
