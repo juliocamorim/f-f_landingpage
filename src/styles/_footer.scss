@@ -1,0 +1,32 @@
+@use 'variaveis';
+
+footer {
+    background-color: variaveis.$corDeFundoPrimaria;
+    color: variaveis.$corDoTexto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 16px; 
+
+            p {
+                display: block
+            }
+        }
+    }
+
+
+@media screen and (max-width: 768px) {
+
+footer {
+    width: 100%;
+    max-width: 100%;
+        p{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

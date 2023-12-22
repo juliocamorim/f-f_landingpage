@@ -1,0 +1,50 @@
+@use 'variaveis';
+
+.sinopse {
+    padding: 0 20%;
+    color: variaveis.$corDoTexto;
+    background-color: variaveis.$corDeFundoSecundaria;
+    padding-bottom: 80px;
+
+    &__image {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+
+    p {
+        font-size: 1.5em;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .sinopse {
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+        &__image {
+            display: block;
+        }
+        h1 {
+            font-size: 2.5em;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        p {
+            padding-top: 36px;
+            font-size: 1.5em;
+            display: flex;
+        }
+    }
+}
